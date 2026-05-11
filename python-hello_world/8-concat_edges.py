@@ -1,5 +1,5 @@
 #!/usr/bin/python3
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
 
-
-str = bytes([111, 98, 106, 101, 99, 116, 45, 111, 114, 105, 101, 110, 116, 101, 100, 32, 112, 114, 111, 103, 114, 97, 109, 109, 105, 110, 103, 32, 119, 105, 116, 104, 32, 80, 121, 116, 104, 111, 110]).decode()
-print(str)
+print(str[39:66] + str[106:112] + str[0:6])
