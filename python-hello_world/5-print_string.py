@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-number = 3.14159
+str = "Holberton School"
 # YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
-print(f"Float: {number:.2f}")
+print(str * 3)
+print(str[:9])
