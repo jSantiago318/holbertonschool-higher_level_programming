@@ -1,4 +1,4 @@
-# python-import_modules\5-variable_load.py
+# /path/to/your/python-import_modules/5-variable_load.py
 
 #!/usr/bin/python3
 
