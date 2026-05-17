@@ -1,35 +1,21 @@
-#!/usr/bin/python3
-"""Print names from hidden_4 that do not start with __."""
+# /tmp/4-hidden_discovery.py
 
-from pathlib import Path
-from importlib.machinery import SourcelessFileLoader
-from importlib.util import module_from_spec, spec_from_loader
+import importlib.util
+import os
+import sys
 
+def get_defined_names(pyc_file):
+    spec = importlib.util.spec_from_file_location("hidden_4", pyc_file)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
 
-def main():
-    """Entry point for script execution."""
-    script_dir = Path(__file__).resolve().parent
-    candidates = (
-        script_dir / "hidden_4.pyc",
-        Path.cwd() / "hidden_4.pyc",
-        Path("/tmp/hidden_4.pyc"),
-    )
-
-    for candidate in candidates:
-        if candidate.exists():
-            loader = SourcelessFileLoader("hidden_4", str(candidate))
-            break
-    else:
-        return
-
-    spec = spec_from_loader(loader.name, loader)
-    hidden_4 = module_from_spec(spec)
-    loader.exec_module(hidden_4)
-
-    for name in sorted(dir(hidden_4)):
-        if not name.startswith("__"):
-            print(name)
-
+    defined_names = [name for name in dir(module) if not name.startswith('__')]
+    
+    return sorted(defined_names)
 
 if __name__ == "__main__":
-    main()
+    pyc_file = "/tmp/hidden_4.pyc"
+    names = get_defined_names(pyc_file)
+    
+    for name in names:
+        print(name)
