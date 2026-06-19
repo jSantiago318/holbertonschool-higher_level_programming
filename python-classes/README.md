@@ -13,6 +13,5 @@ This project covers the fundamentals of classes and objects:
 
 ## Tasks
 
-| File | Description |
-|------|-------------|
-| `0-square.py` | Defines an empty class `Square`. |
+- `0-square.py` — Defines an empty class `Square`.
+- `1-square.py` — Defines a `Square` with a private instance attribute `size`.
