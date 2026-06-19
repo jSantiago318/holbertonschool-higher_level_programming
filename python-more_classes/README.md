@@ -14,3 +14,4 @@ This project deepens the OOP concepts from `python-classes`:
 ## Tasks
 
 - `0-rectangle.py` — Defines an empty class `Rectangle`.
+- `1-rectangle.py` — Adds `width`/`height` properties with type/value validation.
