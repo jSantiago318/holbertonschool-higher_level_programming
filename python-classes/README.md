@@ -19,3 +19,4 @@ This project covers the fundamentals of classes and objects:
 - `3-square.py` — Adds a public `area()` method returning the square's area.
 - `4-square.py` — Exposes `size` via a property getter/setter (validation in setter).
 - `5-square.py` — Adds `my_print()` to draw the square with the `#` character.
+- `6-square.py` — Adds a `position` property; `my_print()` offsets the square.
