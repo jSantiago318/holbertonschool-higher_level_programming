@@ -16,3 +16,4 @@ This project covers the fundamentals of classes and objects:
 - `0-square.py` — Defines an empty class `Square`.
 - `1-square.py` — Defines a `Square` with a private instance attribute `size`.
 - `2-square.py` — Adds type/value validation of `size` (`TypeError`/`ValueError`).
+- `3-square.py` — Adds a public `area()` method returning the square's area.
