@@ -18,6 +18,7 @@ writing text files, and converting objects to and from JSON.
 | `0-read_file.py` | `read_file(filename="")` — reads a UTF-8 text file and prints it to stdout |
 | `1-write_file.py` | `write_file(filename="", text="")` — writes a string to a UTF-8 file, returns chars written |
 | `2-append_write.py` | `append_write(filename="", text="")` — appends a string to a UTF-8 file, returns chars added |
+| `3-to_json_string.py` | `to_json_string(my_obj)` — returns the JSON string representation of an object |
 
 ## Requirements
 
