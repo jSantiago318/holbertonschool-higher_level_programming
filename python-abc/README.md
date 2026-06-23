@@ -18,6 +18,7 @@ fulfil and for sharing behavior across unrelated class hierarchies.
 | File | Description |
 | --- | --- |
 | `task_00_abc.py` | Abstract `Animal` class with `Dog` and `Cat` subclasses implementing `sound` |
+| `task_01_duck_typing.py` | Abstract `Shape` with `Circle`/`Rectangle` and a duck-typed `shape_info` function |
 
 ## Requirements
 
