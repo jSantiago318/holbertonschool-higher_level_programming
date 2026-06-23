@@ -52,6 +52,12 @@ A tuple raises a ``TypeError``:
     Traceback (most recent call last):
     TypeError: point must be an integer
 
+A set raises a ``TypeError``:
+
+    >>> bg.integer_validator("ages", {3, 4})
+    Traceback (most recent call last):
+    TypeError: ages must be an integer
+
 A value of 0 raises a ``ValueError``:
 
     >>> bg.integer_validator("age", 0)
@@ -63,6 +69,13 @@ A negative value raises a ``ValueError``:
     >>> bg.integer_validator("distance", -4)
     Traceback (most recent call last):
     ValueError: distance must be greater than 0
+
+Calling with a missing value argument raises a ``TypeError``
+(the exception detail is ignored so it matches across Python versions):
+
+    >>> bg.integer_validator("age")  # doctest: +IGNORE_EXCEPTION_DETAIL
+    Traceback (most recent call last):
+    TypeError: integer_validator() missing 1 required positional argument: 'value'
 
 ``area`` is not implemented and raises an ``Exception``:
 
