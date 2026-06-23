@@ -22,6 +22,7 @@ fulfil and for sharing behavior across unrelated class hierarchies.
 | `task_02_verboselist.py` | `VerboseList`, a `list` subclass that prints a message on append/extend/remove/pop |
 | `task_03_countediterator.py` | `CountedIterator`, an iterator that counts how many items have been fetched |
 | `task_04_flyingfish.py` | `FlyingFish` multiple-inheritance example over `Fish` and `Bird` (MRO) |
+| `task_05_dragon.py` | `Dragon` composed from `SwimMixin` and `FlyMixin` mixins |
 
 ## Requirements
 
