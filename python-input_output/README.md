@@ -25,6 +25,7 @@ writing text files, and converting objects to and from JSON.
 | `7-add_item.py` | Script that adds CLI arguments to a list persisted in `add_item.json` |
 | `8-class_to_json.py` | `class_to_json(obj)` — returns a class instance's attributes as a serializable dict |
 | `9-student.py` | `Student` class with a `to_json` method returning its attributes as a dict |
+| `10-student.py` | `Student` whose `to_json(attrs=None)` optionally filters which attributes are returned |
 
 ## Requirements
 
