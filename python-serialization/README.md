@@ -16,6 +16,7 @@ objects into formats that can be stored or transmitted, then reconstructed later
 | --- | --- |
 | `task_00_basic_serialization.py` | Serialize a dict to a JSON file and deserialize it back |
 | `task_01_pickle.py` | `CustomObject` that serializes/deserializes itself with `pickle` |
+| `task_02_csv.py` | `convert_csv_to_json(csv_filename)` — converts a CSV file to `data.json` |
 
 ## Requirements
 
