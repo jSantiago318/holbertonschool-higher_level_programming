@@ -18,6 +18,7 @@ including security and authentication.
 | File | Description |
 | --- | --- |
 | `task_02_requests.py` | Fetch posts from JSONPlaceholder with `requests`; print titles and save to CSV |
+| `task_03_http_server.py` | Simple API server with `http.server` (`/`, `/data`, `/status`, `/info`, 404) |
 
 ## Requirements
 
