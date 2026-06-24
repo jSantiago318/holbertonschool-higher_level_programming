@@ -22,6 +22,7 @@ writing text files, and converting objects to and from JSON.
 | `4-from_json_string.py` | `from_json_string(my_str)` — returns the Python object represented by a JSON string |
 | `5-save_to_json_file.py` | `save_to_json_file(my_obj, filename)` — writes an object to a file as JSON |
 | `6-load_from_json_file.py` | `load_from_json_file(filename)` — creates an object from a JSON file |
+| `7-add_item.py` | Script that adds CLI arguments to a list persisted in `add_item.json` |
 
 ## Requirements
 
