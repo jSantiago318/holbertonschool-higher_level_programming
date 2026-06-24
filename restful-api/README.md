@@ -19,6 +19,7 @@ including security and authentication.
 | --- | --- |
 | `task_02_requests.py` | Fetch posts from JSONPlaceholder with `requests`; print titles and save to CSV |
 | `task_03_http_server.py` | Simple API server with `http.server` (`/`, `/data`, `/status`, `/info`, 404) |
+| `task_04_flask.py` | Flask API with routing, JSON responses, dynamic routes, and POST `/add_user` |
 
 ## Requirements
 
