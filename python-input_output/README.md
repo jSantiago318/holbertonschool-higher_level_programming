@@ -27,6 +27,7 @@ writing text files, and converting objects to and from JSON.
 | `9-student.py` | `Student` class with a `to_json` method returning its attributes as a dict |
 | `10-student.py` | `Student` whose `to_json(attrs=None)` optionally filters which attributes are returned |
 | `11-student.py` | `Student` with `to_json` and `reload_from_json` for full serialize/deserialize |
+| `12-pascal_triangle.py` | `pascal_triangle(n)` — returns Pascal's triangle of `n` as a list of lists |
 
 ## Requirements
 
